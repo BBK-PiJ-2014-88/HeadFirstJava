@@ -27,9 +27,6 @@ public class MyDrawPanel extends JPanel {
 		g2d.setPaint(gradient);
 		g2d.fillOval(70, 70, 100, 100);
 		
-		
-		
-		
 		/*make an orange square
 		g.setColor(Color.orange);
 		g.fillRect(20, 50, 100, 100);
@@ -37,10 +34,7 @@ public class MyDrawPanel extends JPanel {
 		/* adding an image: 
 		Image image = new ImageIcon(getClass().getResource("guido.jpg")).getImage();
 		g.drawImage(image, 3, 4, this);
-		*/
-		
-		
-		
+		*/	
 	}
 
 }
