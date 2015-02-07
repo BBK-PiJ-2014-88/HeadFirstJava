@@ -9,7 +9,7 @@ public class SimpleGUI1B implements ActionListener {
 	
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
-		button.setText("I've been clicked!");
+		button.setText("haha you lose!");
 
 	}
 
@@ -19,7 +19,7 @@ public class SimpleGUI1B implements ActionListener {
 	}
 	public void launch(){
 		JFrame frame = new JFrame();
-		button = new JButton("click me");
+		button = new JButton("Click if you want to win");
 		button.addActionListener(this);
 		frame.getContentPane().add(button);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

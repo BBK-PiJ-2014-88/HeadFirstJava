@@ -12,6 +12,8 @@ public class MyDrawPanel extends JPanel {
 	public void paintComponent(Graphics g){
 		Graphics2D g2d = (Graphics2D) g;
 		
+		g2d.fillRect(0, 0, this.getWidth(), this.getHeight());
+		
 		//makes random colors and then paints
 		int red = (int) (Math.random() * 256);
 		int green = (int) (Math.random() * 256);
