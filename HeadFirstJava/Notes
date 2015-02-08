@@ -1,0 +1,11 @@
+TCP Port - 16 bit number that identifies a program on the server
+HTTP - Port 80
+0-65535 TCP ports on a server
+0 - 1023 are reserved for several well known services so pick a port like 2000
+localhost IP address  = 127.0.0.1   - can use this when testing client/server on single
+stand alone machine
+
+Server needs 2 sockets - ServerSocket which waits for client requests
++ normal socket for communicating with the client
+
+ new nameOfClass().launch();
